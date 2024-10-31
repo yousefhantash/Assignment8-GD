@@ -9,15 +9,17 @@ public class ExcerciseTwo : MonoBehaviour
     {
         string[] words = { "Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird" };
         string sentence = "";
+        wordCounter = 0;
 
 
-        while (true)
+        while (wordCounter < 7)
         {
-            int index = Random.Range(0, words.Length);
+            int index = Random.Range(0, 10);
             sentence += words[index] + " ";
+            wordCounter++;
 
         }
-        Debug.Log("Funny Sentence: " + sentence);
+        Debug.Log(sentence);
     }
 
     // Update is called once per frame
