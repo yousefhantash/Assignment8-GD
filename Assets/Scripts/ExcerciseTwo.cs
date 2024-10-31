@@ -9,7 +9,7 @@ public class ExcerciseTwo : MonoBehaviour
     {
         string[] words = { "Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird" };
         string sentence = "";
-        wordCounter = 0;
+        int wordCounter = 0;
 
 
         while (wordCounter < 7)
